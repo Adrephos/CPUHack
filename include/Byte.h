@@ -6,15 +6,14 @@
 using namespace std;
 
 class Byte {
-  public:
-    Byte();
-    ~Byte();
-   
-   string leer();
-   void escribir(string valor);
+	public:
+		Byte();
+		~Byte();
+		string leer();
+		void escribir(string valor);
 
-  private:
-  string strContenido();
+	private:
+		string strContenido;
 
 };
 

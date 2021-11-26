@@ -13,11 +13,11 @@ class Pantalla{
 		int posY;
 		string strColor;
 		string strValor;
-		Registro objRegistro;
-		Memoria objMemoria;
+		Registro* objRegistro;
+		Memoria* objMemoria;
 	public:
-		Pantalla(int x, int y, string strColor, Registro registro);
-		Pantalla(int x, int y, string strColor, Memoria memoria);
+		Pantalla(int x, int y, string strColor, Registro* registro);
+		Pantalla(int x, int y, string strColor, Memoria* memoria);
 		Pantalla(int x, int y, string strColor, string strValor);
 		~Pantalla();
 		void pintar();
