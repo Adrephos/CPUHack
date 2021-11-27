@@ -1,5 +1,5 @@
 #include <iostream> 
-#include "./include/Pantalla.h"
+#include "./include/pantalla.h"
 
 using namespace std;
 

@@ -1,5 +1,5 @@
 #include <iostream>
-#include "./include/Byte.h"
+#include "./include/byte.h"
 #include <string>
 #include <unordered_map>
 #include <bitset>
@@ -11,7 +11,7 @@ Byte::Byte(){
 }
 
 string Byte::leer(){
-	return 0;
+	return strContenido;
 }
 
 void Byte::escribir(string valor){

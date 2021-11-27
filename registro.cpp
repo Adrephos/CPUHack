@@ -1,5 +1,5 @@
 #include <iostream>
-#include "./include/Registro.h"
+#include "./include/registro.h"
 #include <string>
 #include <unordered_map>
 #include <bitset>

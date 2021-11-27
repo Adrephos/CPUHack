@@ -2,8 +2,8 @@
 #define Pantalla_h
 #include <iostream> 
 #include <bitset>
-#include "Registro.h"
-#include "Memoria.h"
+#include "registro.h"
+#include "memoria.h"
 
 using namespace std;
 

@@ -1,7 +1,7 @@
 #ifndef Memoria_h
 #define Memoria_h
 #include <iostream>
-#include "Byte.h"
+#include "byte.h"
 #include <vector>
 #include <bitset>
 

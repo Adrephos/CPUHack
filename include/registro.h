@@ -1,6 +1,6 @@
 #ifndef Registro_h
 #define Registro_h
-#include "Byte.h"
+#include "byte.h"
 #include <string>
 #include <bitset>
 
