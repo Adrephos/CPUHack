@@ -10,6 +10,10 @@ Byte::Byte(){
 	this->strContenido = "0000000000000000";
 }
 
+Byte::~Byte(){
+
+}
+
 string Byte::leer(){
 	return strContenido;
 }

@@ -24,6 +24,8 @@ Pantalla::Pantalla(int x, int y, string strColor, string strValor){
 	this->strValor = strValor;
 }
 
+Pantalla::~Pantalla(){}
+
 void Pantalla::pintar(){
   cout << "si" << endl;
 }

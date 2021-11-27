@@ -12,6 +12,9 @@ Memoria::Memoria(int numCapacidad){
 	vector<Byte> memory(numCapacidad);
 }
 
+Memoria::~Memoria(){
+}
+
 
 string Memoria::leer(int numPosicion){
 	return memory[numPosicion].leer();

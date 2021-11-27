@@ -9,3 +9,6 @@ using namespace std;
 Registro::Registro(string strNombre){ 
 
 }
+Registro::~Registro(){
+
+}
