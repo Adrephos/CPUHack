@@ -7,7 +7,7 @@
 using namespace std;
 
 Registro::Registro(string strNombre){ 
-
+	this->strNombre = strNombre;
 }
 Registro::~Registro(){
 

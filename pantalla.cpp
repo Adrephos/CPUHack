@@ -27,5 +27,12 @@ Pantalla::Pantalla(int x, int y, string strColor, string strValor){
 Pantalla::~Pantalla(){}
 
 void Pantalla::pintar(){
-  cout << "si" << endl;
+	for(int i = 0; i <= posY; i++){
+		cout << endl;
+	}
+	for(int j = 0; j <= posX; j++){
+		cout << "  ";
+	}
+	cout << strValor;
+
 }

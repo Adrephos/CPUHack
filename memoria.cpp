@@ -9,7 +9,7 @@ using namespace std;
 
 Memoria::Memoria(int numCapacidad){ 
 	this->numCapacidad = numCapacidad;
-	vector<Byte> memory(numCapacidad);
+	memory.resize(numCapacidad);
 }
 
 Memoria::~Memoria(){
